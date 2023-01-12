@@ -2,7 +2,7 @@ function ProfileCard ({title, handle, platform, color , image}){
     const style ={color:color};
     //const {title, handle, platform} = props;
     return (
-        <div className ="App"> 
+        <div> 
             <img src={image} alt="Logo images"/>
             <div><h1 style ={style}>Title is {title}.</h1></div>
             <div>Handle is {handle}.</div>
